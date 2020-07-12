@@ -19,10 +19,10 @@ function anotherChoice(){
     		return makecoffe("brew");
     	});
 	var prices={
-    		"brew":2.05,
-    		"espresso":3.25,
-    		"Latte":4.15,
-    		"hot":2.50
+    		"brew":1,
+    		"espresso":1.25,
+    		"Latte":2.50,
+    		"hot":2.80
     	};
 
     	var choice=[];
@@ -36,7 +36,7 @@ $("#img").attr("src","https://images.homedepot-static.com/productImages/23e773bd
 	setTimeout(function(){
 $("#img").attr("src","https://images.unsplash.com/photo-1447933601403-0c6688de566e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
 },1500);
-	 $('#revenue').html(anotherChoice());
+	 $('#revenue').html(anotherChoice()+'dt');
 }
 
 

@@ -2,6 +2,11 @@
 <html>
 <head>
 	<style>
+		.table{
+			margin-left: auto;
+			margin-right: auto;
+
+		}
 		.btn {
     background-color: grey;
     color:white;
@@ -11,7 +16,14 @@
     cursor: pointer; 
     box-shadow: 0 8px 16px 0 grey;
     text-decoration: none;
+
   }
+  .div1{
+  	background-color: #dfe6e9;
+  }  
+  .coffe{
+  	text-align: center;
+  }                                                 
 	</style>
 
 	<title>Project Rbk</title>
@@ -22,13 +34,15 @@
 		<div class="coffe">
 			<h1>Welcome to my coffe shop</h1>
 			<br>
-			<img id="img" src="https://images.unsplash.com/photo-1447933601403-0c6688de566e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80" width="200" height="300">
+			<img id="img" src="https://images.unsplash.com/photo-1447933601403-0c6688de566e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80" width="200" height="300" >
 			<h3 id="message">click the image to order coffe</h3>
 			<table class="table">
 				<tr>
 					<td class="td">
 						<button class="btn" id="espresso">espresso</button>
 					</td>
+					<br>
+					<br>
 					<td class="td">
 						<button class="btn" id="Latte">Latte</button>
 					</td>
@@ -38,9 +52,9 @@
 
 				</tr>
 				<tr>
-					<td></td>
-					<td></td>
-					<td></td>
+					<td>1.25dt</td>
+					<td>2.50dt</td>
+					<td>2.80dt</td>
 				</tr>
 			</table>
 			<h4>Total:<span id="revenue"></span></h4>
