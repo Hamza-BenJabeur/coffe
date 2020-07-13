@@ -52,10 +52,10 @@
 	
 	setTimeout(function(){
 $("#img").attr("src","https://images.homedepot-static.com/productImages/23e773bd-fe78-4ee8-90b7-820c6c2c5767/svn/allures-illusions-mugs-giant-coffee-64_600.jpg");
-	},1000);
+	},2000);
 	setTimeout(function(){
 $("#img").attr("src","https://images.unsplash.com/photo-1447933601403-0c6688de566e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
-},1500);
+},2000);
 	 $('#revenue').html(anotherChoice()+'dt');
 	}
 	else if (CoffeType==="Latte"){
@@ -63,10 +63,10 @@ $("#img").attr("src","https://images.unsplash.com/photo-1447933601403-0c6688de56
 	
 	setTimeout(function(){
 $("#img").attr("src","https://media-cdn.tripadvisor.com/media/photo-s/12/8a/39/6c/un-bon-latte.jpg");
-	},1000);
+	},2000);
 	setTimeout(function(){
 $("#img").attr("src","https://images.unsplash.com/photo-1447933601403-0c6688de566e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
-},1500);
+},2000);
 	 $('#revenue').html(anotherChoice()+'dt');
 	}
 	else if(CoffeType==="hot"){
@@ -74,10 +74,10 @@ $("#img").attr("src","https://images.unsplash.com/photo-1447933601403-0c6688de56
 	
 	setTimeout(function(){
 $("#img").attr("src","https://images-na.ssl-images-amazon.com/images/I/517cCg8KCAL._AC_.jpg");
-	},1000);
+	},2000);
 	setTimeout(function(){
 $("#img").attr("src","https://images.unsplash.com/photo-1447933601403-0c6688de566e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
-},1500);
+},2000);
 	 $('#revenue').html(anotherChoice()+'dt');
 
 		}
@@ -86,10 +86,10 @@ $("#img").attr("src","https://images.unsplash.com/photo-1447933601403-0c6688de56
 	
 	setTimeout(function(){
 $("#img").attr("src","https://png.pngtree.com/png-clipart/20190920/original/pngtree-beverage-drink-soda-red-cola-png-image_4622935.jpg");
-	},1000);
+	},2000);
 	setTimeout(function(){
 $("#img").attr("src","https://images.unsplash.com/photo-1447933601403-0c6688de566e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
-},1500);
+},2000);
 	 $('#revenue').html(anotherChoice()+'dt');
 
 		}
@@ -98,10 +98,10 @@ $("#img").attr("src","https://images.unsplash.com/photo-1447933601403-0c6688de56
 	
 	setTimeout(function(){
 $("#img").attr("src","https://us.123rf.com/450wm/karandaev/karandaev1508/karandaev150800001/43117571-water-bottle-isolated-on-white-background.jpg?ver=6");
-	},1000);
+	},2000);
 	setTimeout(function(){
 $("#img").attr("src","https://images.unsplash.com/photo-1447933601403-0c6688de566e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
-},1500);
+},2000);
 	 $('#revenue').html(anotherChoice()+'dt');
 
 		}
