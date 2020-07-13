@@ -15,6 +15,9 @@
 	$("#hot").on('click',function(){
 		return makecoffe("hot");
 	});
+	$("#Soda").on('click',function(){
+		return makecoffe("Soda");
+	});
 	$("#img").on("click",function(){
     		return makecoffe("brew");
     	});
@@ -33,7 +36,8 @@
     		"brew":1,
     		"espresso":1.25,
     		"Latte":2.50,
-    		"hot":2.80
+    		"hot":2.80,
+    		"Soda":4
     	};
 
     	var choice=[];
@@ -66,6 +70,18 @@ $("#img").attr("src","https://images.unsplash.com/photo-1447933601403-0c6688de56
 	
 	setTimeout(function(){
 $("#img").attr("src","https://images-na.ssl-images-amazon.com/images/I/517cCg8KCAL._AC_.jpg");
+	},1000);
+	setTimeout(function(){
+$("#img").attr("src","https://images.unsplash.com/photo-1447933601403-0c6688de566e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
+},1500);
+	 $('#revenue').html(anotherChoice()+'dt');
+
+		}
+		else if(CoffeType==="Soda"){
+	$("#img").attr('src','https://i.redd.it/0dmiuri6zyt41.jpg');
+	
+	setTimeout(function(){
+$("#img").attr("src","https://png.pngtree.com/png-clipart/20190920/original/pngtree-beverage-drink-soda-red-cola-png-image_4622935.jpg");
 	},1000);
 	setTimeout(function(){
 $("#img").attr("src","https://images.unsplash.com/photo-1447933601403-0c6688de566e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
