@@ -21,6 +21,9 @@
 	$("#img").on("click",function(){
     		return makecoffe("brew");
     	});
+	$("#water").on("click",function(){
+    		return makecoffe("water");
+    	});
 	$("#reset").on("click",function(){
 		return reset();
 	})
@@ -37,7 +40,8 @@
     		"espresso":1.25,
     		"Latte":2.50,
     		"hot":2.80,
-    		"Soda":4
+    		"Soda":4,
+    		"water":2
     	};
 
     	var choice=[];
@@ -82,6 +86,18 @@ $("#img").attr("src","https://images.unsplash.com/photo-1447933601403-0c6688de56
 	
 	setTimeout(function(){
 $("#img").attr("src","https://png.pngtree.com/png-clipart/20190920/original/pngtree-beverage-drink-soda-red-cola-png-image_4622935.jpg");
+	},1000);
+	setTimeout(function(){
+$("#img").attr("src","https://images.unsplash.com/photo-1447933601403-0c6688de566e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
+},1500);
+	 $('#revenue').html(anotherChoice()+'dt');
+
+		}
+			else if(CoffeType==="water"){
+	$("#img").attr('src','https://i.redd.it/wjlgkpxwolhz.jpg').css("height","300px");
+	
+	setTimeout(function(){
+$("#img").attr("src","https://us.123rf.com/450wm/karandaev/karandaev1508/karandaev150800001/43117571-water-bottle-isolated-on-white-background.jpg?ver=6");
 	},1000);
 	setTimeout(function(){
 $("#img").attr("src","https://images.unsplash.com/photo-1447933601403-0c6688de566e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
