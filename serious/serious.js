@@ -1,4 +1,4 @@
-function anotherChoice(){
+    function anotherChoice(){
 		var total=0;
 		for (var i=0;i<choice.length;i++){
 			total=total+prices[choice[i]];
@@ -18,6 +18,17 @@ function anotherChoice(){
 	$("#img").on("click",function(){
     		return makecoffe("brew");
     	});
+	$("#reset").on("click",function(){
+		return reset();
+	})
+	function reset(){
+		
+
+		choice = [];
+		$ ('#revenue').html(anotherChoice());
+	}
+		
+	
 	var prices={
     		"brew":1,
     		"espresso":1.25,
@@ -28,7 +39,7 @@ function anotherChoice(){
     	var choice=[];
 	function makecoffe(CoffeType){
 	choice.push(CoffeType);
-	 console.log(choice);
+	// console.log(choice);
 	  	$("#img").attr('src','https://imgaz.staticbg.com/thumb/view/oaupload/ser1/banggood/images/3B/F4/bf29ad2d-4734-4f57-b1c9-dad5c497a1ae.png');
 	setTimeout(function(){
 $("#img").attr("src","https://images.homedepot-static.com/productImages/23e773bd-fe78-4ee8-90b7-820c6c2c5767/svn/allures-illusions-mugs-giant-coffee-64_600.jpg");
